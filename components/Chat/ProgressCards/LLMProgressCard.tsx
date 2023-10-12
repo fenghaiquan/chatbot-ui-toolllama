@@ -233,7 +233,7 @@ const LLMProgressCard = (props: LLMProgressCardProps) => {
                   >
                     <DialogTitle>{"Full LLM History up to Stage " + data.occurence}</DialogTitle>
                     <DialogContent>
-                      <DynamicReactJson
+                      <DynamicReactJson // test
                         src={messages}
                         displayDataTypes={false}
                         indentWidth={2}
