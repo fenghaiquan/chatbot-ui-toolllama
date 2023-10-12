@@ -238,7 +238,7 @@ const LLMProgressCard = (props: LLMProgressCardProps) => {
                         displayDataTypes={false}
                         indentWidth={2}
                         displayObjectSize={false}
-                      />
+                      > </DynamicReactJson>
                       {/*<DialogContentText>*/}
                       {/*  /!*{JSON.stringify(data.messages)}*!/*/}
                       {/*  */}
